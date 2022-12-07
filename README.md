@@ -2,10 +2,15 @@
 Final report
 
 Group C:
+
 Abdulaziz 12190257
+
 Mukhammadsidik 12194846
+
 Bakhodir 12194850
+
 Bekhzodbek 12194852
+
 Maftunakhon 12194847
 
 DATABASE FINAL ASSIGNMENT
@@ -19,14 +24,14 @@ Goals:
  
 Task description:
  
-        Online hotel booking provides hotel booking services to various travelers and visitors. It serves several customers. Each Hotel requires a modern database system for efficient management of its services and rooms. Our team is hired to design and develop a database that can meet the requirements of the hotel’s database management
+   Online hotel booking provides hotel booking services to various travelers and visitors. It serves several customers. Each Hotel requires a modern database system for efficient management of its services and rooms. Our team is hired to design and develop a database that can meet the requirements of the hotel’s database management
 
 Booking.com database requirements
 
-•	All of the information related to the transactions that occur daily in each hotel database system is contained in the table named “Transactions”, which includes transaction id, payment id, customer id, extra charges id, transaction date, and transaction status.
-•	The Hotel’s detailed information about its id. Hotel name owner’s first and last name, contact number, and email is provided in the table named “Hotel”
-•	“Locations” table is used to provide to give address information, street, city, country, zip code, latitude, and longitude.
-•	The “Payment” table includes extra charges id, customer id, payment type, currency, currency image, payment date, payment status. 
+   All of the information related to the transactions that occur daily in each hotel database system is contained in the table named “Transactions”, which includes transaction id, payment id, customer id, extra charges id, transaction date, and transaction status.
+   The Hotel’s detailed information about its id. Hotel name owner’s first and last name, contact number, and email is provided in the table named “Hotel”
+   “Locations” table is used to provide to give address information, street, city, country, zip code, latitude, and longitude.
+   The “Payment” table includes extra charges id, customer id, payment type, currency, currency image, payment date, payment status. 
 •	“Extra charge” table used for, if customer brake down any item by using name, cost and description.
 •	Customer table provide first and last name, street address, city, country, zip code, birthday, contact number, email, language id.
 •	“Reservation” table: The data in this table pertains to each reservation a client makes or that a front desk agent executes. This table stores the data of hotel id, customer id, room id, transection id, reservation id, check in, check out, no of guests, smoking and pets id. 
