@@ -28,35 +28,57 @@ Task description:
 
 Booking.com database requirements
 
-   All of the information related to the transactions that occur daily in each hotel database system is contained in the table named “Transactions”, which includes transaction id, payment id, customer id, extra charges id, transaction date, and transaction status.
-   The Hotel’s detailed information about its id. Hotel name owner’s first and last name, contact number, and email is provided in the table named “Hotel”
-   “Locations” table is used to provide to give address information, street, city, country, zip code, latitude, and longitude.
-   The “Payment” table includes extra charges id, customer id, payment type, currency, currency image, payment date, payment status. 
-•	“Extra charge” table used for, if customer brake down any item by using name, cost and description.
-•	Customer table provide first and last name, street address, city, country, zip code, birthday, contact number, email, language id.
-•	“Reservation” table: The data in this table pertains to each reservation a client makes or that a front desk agent executes. This table stores the data of hotel id, customer id, room id, transection id, reservation id, check in, check out, no of guests, smoking and pets id. 
-•	The “Rooms” table records all different room information in hotels with the variables including room id, roomtype id, status id, room number, room picture, overall price. 
-•	The table “Room type” stores all of the room kinds by using roomtype id, room name, description, max guests, smoking, pets, room price (USD) functions as well as their additional characteristics if any.
-•	The “Room Status” table shows if the room is occupied, unoccupied, or in the process of being cleaned by using function dependence of status id, status name, status description.  
-•	One of the tables is called “Hotel overview” that related directly to hotel to give information of satisfaction by using following functions, they are hotel rating, imaged id as a foreign key and hotel id.
-•	Next table is “Hotel image” related to “Hotel overview” that table provide the hotel images to show hotel to other customers. This function work by uploading image and use added by and added at functions and its status too. 
-•	To make convenience to customer the is “Discount” table that use discount id, hotel id customer id as foreign key and discount type, description, and promocode.
-•	“Recommendations” table that match best fit of hotels to customers by using the functions of recommendation id, customer id, top hotels, and options of choosing low-price, best by search, best by rating, best by promotions, best by roomtype, best by recommend.
-•	“Feedback” is another table that customer can give feedback about hotel experience, for that use feedback id, hotel id, customer id as foreign key and feedback type, feedback itself, feedback data and rating 5 stars.
-•	“Settings” table related to “Customer” table and use settings id, customer id and language id as foreign key. Also, it can be used for editing profile, notification, privacy security, advanced settings, contact customer service, how to use and FAQ functions.
-•	“Login” table, Customers can login to the webpage and will have name, password and of course information about the date they login.
-•	“Language” table. Staff of the hotels should have their name written on the table and their language and this table is linked with the language table which has language name and ISO code.
-•	“Hotel staff” table contains staff name, staff language, and its language id.
-•	“Report” table. Customers can report if there are problems related to anything in the hotel. If something is broken for example the system will have info of the report type, report, report date and report status (whether solved or not.)
-•	“Search” table Customers can also search hotels based on the country, city, and even hotel name, or room type they would like, and can filter the price they want or even search for discounts, and in the web page the rating of the hotel is visual, and client may see the pictures of the hotel based on their search.
+All of the information related to the transactions that occur daily in each hotel database system is contained in the table named “Transactions”, which includes transaction id, payment id, customer id, extra charges id, transaction date, and transaction status.
 
+The Hotel’s detailed information about its id. Hotel name owner’s first and last name, contact number, and email is provided in the table named “Hotel”
 
-	ERD Model also contains info related to the admins and there is a separate ERD table for it. It has following inputs:
+“Locations” table is used to provide to give address information, street, city, country, zip code, latitude, and longitude.
+ 
+The “Payment” table includes extra charges id, customer id, payment type, currency, currency image, payment date, payment status. 
 
-•	The “Admin” table that contains Admins name, username, password, address, contact number and email.
-•	The “Settings” table contains admin id as a foreign key and menu, data rows, display name, description, icons, and servers.
-•	The “Activity” table includes admin id, customer id, type of the activity, description, and activity date.
-•	The last table named “History” stores info such as admin id, customer id, activity type, created by, created on, updated by, updated on, deleted by and of course as required deleted 
+“Extra charge” table used for, if customer brake down any item by using name, cost and description.
+
+Customer table provide first and last name, street address, city, country, zip code, birthday, contact number, email, language id.
+
+“Reservation” table: The data in this table pertains to each reservation a client makes or that a front desk agent executes. This table stores the data of hotel id, customer id, room id, transection id, reservation id, check in, check out, no of guests, smoking and pets id. 
+
+The “Rooms” table records all different room information in hotels with the variables including room id, roomtype id, status id, room number, room picture, overall price. 
+
+The table “Room type” stores all of the room kinds by using roomtype id, room name, description, max guests, smoking, pets, room price (USD) functions as well as their additional characteristics if any.
+
+The “Room Status” table shows if the room is occupied, unoccupied, or in the process of being cleaned by using function dependence of status id, status name, status description.  
+
+One of the tables is called “Hotel overview” that related directly to hotel to give information of satisfaction by using following functions, they are hotel rating, imaged id as a foreign key and hotel id.
+
+Next table is “Hotel image” related to “Hotel overview” that table provide the hotel images to show hotel to other customers. This function work by uploading image and use added by and added at functions and its status too. 
+
+To make convenience to customer the is “Discount” table that use discount id, hotel id customer id as foreign key and discount type, description, and promocode.
+
+“Recommendations” table that match best fit of hotels to customers by using the functions of recommendation id, customer id, top hotels, and options of choosing low-price, best by search, best by rating, best by promotions, best by roomtype, best by recommend.
+
+“Feedback” is another table that customer can give feedback about hotel experience, for that use feedback id, hotel id, customer id as foreign key and feedback type, feedback itself, feedback data and rating 5 stars.
+
+“Settings” table related to “Customer” table and use settings id, customer id and language id as foreign key. Also, it can be used for editing profile, notification, privacy security, advanced settings, contact customer service, how to use and FAQ functions.
+
+“Login” table, Customers can login to the webpage and will have name, password and of course information about the date they login.
+
+“Language” table. Staff of the hotels should have their name written on the table and their language and this table is linked with the language table which has language name and ISO code.
+
+“Hotel staff” table contains staff name, staff language, and its language id.
+
+“Report” table. Customers can report if there are problems related to anything in the hotel. If something is broken for example the system will have info of the report type, report, report date and report status (whether solved or not.)
+
+“Search” table Customers can also search hotels based on the country, city, and even hotel name, or room type they would like, and can filter the price they want or even search for discounts, and in the web page the rating of the hotel is visual, and client may see the pictures of the hotel based on their search.
+
+ERD Model also contains info related to the admins and there is a separate ERD table for it. It has following inputs:
+
+The “Admin” table that contains Admins name, username, password, address, contact number and email.
+
+The “Settings” table contains admin id as a foreign key and menu, data rows, display name, description, icons, and servers.
+
+The “Activity” table includes admin id, customer id, type of the activity, description, and activity date.
+
+The last table named “History” stores info such as admin id, customer id, activity type, created by, created on, updated by, updated on, deleted by and of course as required deleted 
 
 
 
