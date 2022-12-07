@@ -170,8 +170,9 @@ For adding other sample data into the database named "Hotel.db", we used the sam
 - Maftunakhon 12194847
 
  
+<p align="center"> 
+  THANK YOU FOR YOUR ATTENTION!
+</p>
 
-
-# THANK YOU FOR YOUR ATTENTION!
 
 
