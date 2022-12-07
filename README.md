@@ -172,6 +172,6 @@ For adding other sample data into the database named "Hotel.db", we used the sam
  
 
 
-
+# THANK YOU FOR YOUR ATTENTION!
 
 
